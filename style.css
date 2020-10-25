@@ -1,0 +1,38 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: "Palatino", "Book Antiqua", Palatino, serif;
+}
+
+#weatherContainer {
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 5px black;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+#weatherContainer h1{
+    margin: 5px;
+    font-size: 42px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#searchContainer {
+
+}
+
+#searchContainer  input {
+
+    background: rgba(0, 0, 0, 0.25);
+}
+#searchContainer  button{
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+}
